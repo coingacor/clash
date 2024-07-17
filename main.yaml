@@ -1,21 +1,21 @@
 proxy-providers:
   US:
     type: file
-    path: "./US.yaml"
+    path: "./proxy_provider/US.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
   JAPAN:
     type: file
-    path: "./japan.yaml"
+    path: "./proxy_provider/japan.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
   Umum:
     type: file
-    path: "./umum.yaml"
+    path: "./proxy_provider/umum.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
